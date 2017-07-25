@@ -1,0 +1,30 @@
+nodes = [
+
+// Single Sequence
+	{
+	    name = "Single Sequence"
+	    args = {
+	        sequence_used = "float"
+	        loop_and_repeat = "bool"
+ 	    }
+	    returns = {
+	        out1 = "event"
+	        out2 = "event"
+	        out3 = "event"
+	        out4 = "event"
+	        out5 = "event"
+	        out6 = "event"
+	        out7 = "event"
+	        out8 = "event"
+	        out9 = "event"
+	        out10 = "event"
+	        sequence_complete = "event"
+	        common_out = "event"
+	        sequence_number = "float"
+	    }
+	    query = false
+	    function = "single_sequence.fire_sequence"
+	    category = "PK Add Ons/FlowControl"
+	}
+
+]

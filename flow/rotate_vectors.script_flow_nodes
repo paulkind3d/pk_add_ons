@@ -1,0 +1,16 @@
+nodes = [
+// Rotate Vectors	
+	{
+	    name = "Rotate Vector"
+	    args = {
+	        vector_in = "vector3"
+	        rotation = "quaternion"
+ 	    }
+	    returns = {
+	        vector_out = "vector3"
+	    }
+	    query = false
+	    function = "pk_scripts.rotate_vector"
+	    category = "PK Add Ons/Math"
+	}
+]

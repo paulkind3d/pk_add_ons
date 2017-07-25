@@ -1,0 +1,20 @@
+nodes = [
+// Light Flicker
+	{
+	    name = "Light Flicker"
+	    args = {
+	        light_unit = "unit"
+	        light_index = "float"
+	        light_intensity_min = "float"
+	        light_intensity_max = "float"
+            flicker_time_min = "float"
+            flicker_time_max = "float"
+            pause_flicker = "bool"
+ 	    }
+	    returns = {
+	    }
+	    query = false
+	    function = "flicker.flicker_light"
+	    category = "PK Add Ons/Lights"  
+	}
+]

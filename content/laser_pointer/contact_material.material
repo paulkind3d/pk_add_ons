@@ -1,0 +1,497 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb5"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab16"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb9"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab23"
+			}
+		}
+		{
+			destination = {
+				connector_id = "34259752-b962-4b65-92c3-903a57338519"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb5"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab23"
+			}
+		}
+		{
+			destination = {
+				connector_id = "995996dc-408e-4e6f-a310-0db5b3276075"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab23"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab19"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab19"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab21"
+			}
+		}
+		{
+			destination = {
+				connector_id = "96650519-54EC-47A2-B34E-3B1989F56BB3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb1"
+			}
+		}
+		{
+			destination = {
+				connector_id = "96650519-54EC-47A2-B34E-3B1989F56BB3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab21"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb1"
+			}
+		}
+		{
+			destination = {
+				connector_id = "178ABCED-40BA-40B1-BAA4-FB5F9732353B"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab11"
+			}
+		}
+		{
+			destination = {
+				connector_id = "178ABCED-40BA-40B1-BAA4-FB5F9732353B"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab21"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab11"
+			}
+		}
+		{
+			destination = {
+				connector_id = "ffac2478-636b-4b9b-95b9-cd504781e2c2"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab12"
+			}
+		}
+		{
+			destination = {
+				connector_id = "ffac2478-636b-4b9b-95b9-cd504781e2c2"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab21"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab12"
+			}
+		}
+		{
+			destination = {
+				connector_id = "399aba19-4e60-4287-b1d3-ee2acb8fd406"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab21"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab22"
+			}
+		}
+		{
+			destination = {
+				connector_id = "5551ea38-126d-4d89-ab57-14b36b92a93c"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab23"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb2"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			}
+		}
+		{
+			destination = {
+				connector_id = "399aba19-4e60-4287-b1d3-ee2acb8fd406"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab13"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1164a5ef-4563-4795-b3b5-42825d6df037"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb5"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab16"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab16"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab17"
+			}
+		}
+	]
+	constants = [
+		{
+			connector_id = "cdc83a63-3365-4c10-9353-79ff5f2fd1f0"
+			id = "2bbaabba-abba-abba-abba-abbaabbaab23"
+			instance_id = "abbaabba-abba-abba-abba-abbaabbaab23"
+			value = [0.5 0.5 0.5 0.5]
+		}
+		{
+			connector_id = "6ff26be7-68a1-4b89-b9dd-551d216086c2"
+			id = "0bbaabba-abba-abba-abba-abbaabbaab12"
+			instance_id = "abbaabba-abba-abba-abba-abbaabbaab12"
+			value = [0.5 0.5]
+		}
+	]
+	nodes = [
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb5"
+			options = [
+				"3b55d6c6-4398-4dbc-b9ef-570aff8696ae"
+			]
+			position = [1684 197]
+			samplers = {
+			}
+			title = "Standard Base"
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			options = [
+			]
+			position = [1166 138]
+			samplers = {
+			}
+			title = "Multiply"
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Color"
+					name = "color"
+					type = "float3"
+					ui = {
+						max = [1 1 1]
+						min = [0 0 0]
+						order = 1
+						step = [0.01 0.01 0.01]
+						ui_type = "color"
+					}
+					value = [1 0 0]
+				}
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb9"
+			options = [
+			]
+			position = [833 77]
+			samplers = {
+			}
+			title = "Color"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab23"
+			options = [
+			]
+			position = [832 195]
+			samplers = {
+			}
+			title = "Linear Interpolate"
+			type = "core/shader_nodes/lerp"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab19"
+			options = [
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+			]
+			position = [541 115]
+			samplers = {
+				texture_map = {
+					display_name = "Contact Mask"
+					slot_name = "contact_mask"
+					ui = {
+						order = 1
+					}
+				}
+			}
+			title = "Contact Mask"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab21"
+			options = [
+			]
+			position = [280 20]
+			samplers = {
+			}
+			title = "Rotator"
+			type = "core/shader_nodes/rotator"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb1"
+			options = [
+			]
+			position = [-46 78]
+			samplers = {
+			}
+			title = "Texcoord0"
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab11"
+			options = [
+			]
+			position = [-50 181]
+			samplers = {
+			}
+			title = "Time"
+			type = "core/shader_nodes/current_time"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab12"
+			options = [
+			]
+			position = [-53 280]
+			samplers = {
+			}
+			title = "Constant Vector2"
+			type = "core/shader_nodes/constant_vector2"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Speed2"
+					name = "speed2"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						order = 101
+						step = 0.01
+					}
+					value = 0.2
+				}
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab22"
+			options = [
+			]
+			position = [-48 -24]
+			samplers = {
+			}
+			title = "Speed2"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb2"
+			options = [
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+			]
+			position = [542 263]
+			samplers = {
+				texture_map = {
+					display_name = "Contact Mask"
+					slot_name = "contact_mask"
+					ui = {
+						order = 1
+					}
+				}
+			}
+			title = "Contact Mask"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			options = [
+			]
+			position = [283 202]
+			samplers = {
+			}
+			title = "Rotator"
+			type = "core/shader_nodes/rotator"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Speed"
+					name = "speed"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						order = 100
+						step = 0.01
+					}
+					value = 0.2
+				}
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab13"
+			options = [
+			]
+			position = [-47 403]
+			samplers = {
+			}
+			title = "Speed"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab16"
+			options = [
+			]
+			position = [1437 337]
+			samplers = {
+			}
+			title = "Multiply"
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Emissive Amount"
+					name = "emissive_amount"
+					type = "float"
+					ui = {
+						max = 30
+						min = 0
+						order = 300
+						step = 0.01
+					}
+					value = 30
+				}
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab17"
+			options = [
+			]
+			position = [1149 416]
+			samplers = {
+			}
+			title = "Emissive Amount"
+			type = "core/shader_nodes/material_variable"
+		}
+	]
+	version = 3
+}
+textures = {
+	brdf_lut = "core/stingray_renderer/lookup_tables/ibl_brdf_lut"
+	contact_mask = "pk_add_ons/content/laser_pointer/textures/contact_mask"
+	global_diffuse_cube = "core/stingray_renderer/environments/midday/diffuse_cube"
+	global_specular_cube = "core/stingray_renderer/environments/midday/specular_cube"
+}
+variables = {
+	color = {
+		type = "vector3"
+		value = [1 0 0]
+	}
+	emissive_amount = {
+		type = "scalar"
+		value = 30
+	}
+	speed = {
+		type = "scalar"
+		value = 0.2
+	}
+	speed2 = {
+		type = "scalar"
+		value = 0.2
+	}
+}

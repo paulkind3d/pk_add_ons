@@ -1,0 +1,15 @@
+nodes = [
+    {
+	    name = "Get Distance"
+	    args = {
+	    	position_1 = "vector3"
+	    	position_2 = "vector3"
+ 	    }
+	    returns = {
+	       distance = "float"
+	    }
+	    query = false
+	    function = "math_nodes.get_distance"
+	    category = "PK Add Ons/Math"  
+}
+]

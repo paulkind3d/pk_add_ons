@@ -1,0 +1,21 @@
+nodes = [
+	// look at unit
+	{
+	    name = "Unit Look At Unit"
+	    args = {
+	        looker_unit = "unit"
+	        looker_unit_mesh = "string"
+	        observed_unit = "unit"
+	        flat_rotation = "bool"
+	        smooth_results = "bool"
+	        transition_time = "float"
+	        invert_z = "bool"
+	        stop_looking = "bool"
+ 	    }
+	    returns = {
+	    }
+	    query = false
+	    function = "look_at_unit.unit_look_at_unit"
+	    category = "PK Add Ons/Utility"
+	}
+]

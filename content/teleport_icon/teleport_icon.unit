@@ -1,0 +1,16 @@
+
+materials = {
+	teleport_material = "pk_add_ons/content/teleport_icon/teleport_material"
+}
+renderables = {
+	teleport_base = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

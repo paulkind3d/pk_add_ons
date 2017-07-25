@@ -1,0 +1,96 @@
+nodes = [
+// UNITS
+// Create Table
+	{
+	    name = "Create Unit Table"
+	    args = {
+	       table_name = "string"
+	    }
+	    
+	    returns = {
+	    }
+	    
+	    query = false
+	    function = "pk_table_tools.create_unit_table"
+	    category = "Table_Tools/Units"
+	}
+// Add a unit to a table	
+	{
+		name = "Add Unit to Unit Table"
+		args = {
+			table_name = "string"
+			unit = "unit"
+			}
+			
+		returns = {
+		    unit_id = "float"
+		}
+
+		function = "pk_table_tools.add_unit_to_table"
+		category = "Table_Tools/Units"
+	}	
+	
+
+	// get a unit in the table	
+	{
+		name = "Get Unit from Unit Table"
+		args = {
+			table_name = "string"
+			unit_id = "float"
+			}
+			
+		returns = {
+		    unit = "unit"
+		}
+
+		function = "pk_table_tools.get_unit_in_table"
+		category = "Table_Tools/Units"
+	}
+	
+	
+// remove a unit from a table	
+	{
+		name = "Delete Unit from Unit Table"
+		args = {
+			table_name = "string"
+			unit_id = "float"
+			}
+		returns = {
+		    
+		}
+		
+		function = "pk_table_tools.delete_unit_from_table"
+		category = "Table_Tools/Units"
+	}
+	
+	
+	// get the first valid unit in the table	
+	{
+		name = "Get First Unit In Table"
+		args = {
+			table_name = "string"
+			}
+		returns = {
+		    unit = "unit"
+		    unit_id = "float"
+		}
+		
+		function = "pk_table_tools.get_first_unit_in_table"
+		category = "Table_Tools/Units"
+	}
+	
+		// get the length of a unit table	
+	{
+		name = "Get Length of Unit Table "
+		args = {
+			table_name = "string"
+			}
+		returns = {
+		    table_length = "float"
+		}
+		
+		function = "pk_table_tools.get_unit_table_length"
+		category = "Table_Tools/Units"
+	}
+	
+]

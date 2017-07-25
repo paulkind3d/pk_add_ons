@@ -1,0 +1,16 @@
+nodes = [
+	    // Color to Percent
+	{
+	    name = "Color to Percent"
+	    args = {
+	        color = "vector3"
+ 	    }
+	    returns = {
+	    	percent = "vector3"
+	    }
+	    query = true
+	    function = "color_to_percent.get_color_from_vector"
+	    category = "PK Add Ons/Materials"  
+	}
+
+]

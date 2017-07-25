@@ -1,0 +1,25 @@
+nodes = [
+// prints out a debug message with a numeric variable
+	{
+	    name = "Super Debugger"
+	    args = {
+	        debug_message_prefix = "string"
+	        debug_message_suffix = "string"
+	        data_string = "string"
+	        data_numeric = "float"
+	        data_vector3 = "vector3"
+	        data_boolean = "bool"
+	        data_rotation = "quaternion"
+	        debug_type = {
+	         type = "enum"
+	        choices = [
+	            "Print to Screen"
+	            "Print to Console"
+	            ]
+	            default = "Print to Screen"
+	        }
+	    }
+	    function = "pk_debug.super_debugger"
+	    category = "PK Add Ons/Debug"
+	}
+]

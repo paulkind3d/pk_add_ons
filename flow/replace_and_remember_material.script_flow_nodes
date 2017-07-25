@@ -1,0 +1,50 @@
+nodes = [
+	{
+	    name = "Replace and Remember Material - ID"
+	    args = {
+	        original_resource_id = "id"
+	        unit_to_modify = "unit"
+	        mesh_slot_name_to_modify = "id"
+	        mesh_to_modify = "mesh"
+	        material_to_apply = {type = "resource" extension = "material"}
+	        }
+	    returns = {
+	        material_changed = "event"
+	        material_reset = "event"
+	        all_materials_reset = "event"
+	        out = "event"
+	    }
+	    function_map = [
+            ["replace_and_remember_material"  "replace_and_remember_material.replace_and_remember_material"]
+            ["reset_material" "replace_and_remember_material.reset_material"]
+            ["reset_all_materials"   "replace_and_remember_material.reset_all_materials"]
+        ]
+	    category = "PK Add Ons/Materials"
+	}
+	
+	{
+	    name = "Replace and Remember Material - String"
+	    args = {
+	        original_resource_id = "id"
+	        unit_to_modify = "unit"
+	        mesh_slot_name_to_modify = "string"
+	        mesh_to_modify = "mesh"
+	        material_to_apply = {type = "resource" extension = "material"}
+	        }
+	    returns = {
+	        material_changed = "event"
+	        material_reset = "event"
+	        all_materials_reset = "event"
+	        out = "event"
+	    }
+	    function_map = [
+            ["replace_and_remember_material"  "replace_and_remember_material_str.replace_and_remember_material"]
+            ["reset_material" "replace_and_remember_material_str.reset_material"]
+            ["reset_all_materials"   "replace_and_remember_material_str.reset_all_materials"]
+        ]
+	    category = "PK Add Ons/Materials"
+	}
+	
+	
+]
+

@@ -1,0 +1,453 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb3"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb6"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb6"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb6"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb7"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb6"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "34259752-b962-4b65-92c3-903a57338519"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb3"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb2"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab12"
+			}
+		}
+		{
+			destination = {
+				connector_id = "40a76949-e7db-47fb-9aec-3fa98dd3fa2e"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab12"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb4"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb4"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			}
+		}
+		{
+			destination = {
+				connector_id = "8231a2cb-b751-4ecd-94eb-3e6d048ba173"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb5"
+			}
+		}
+		{
+			destination = {
+				connector_id = "46536067-b418-47a5-bc6b-234972e963e9"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab11"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb4"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb1"
+			}
+		}
+		{
+			destination = {
+				connector_id = "0ce9ad0a-0b3f-43b1-9139-12176f3aad8e"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab12"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab13"
+			}
+		}
+		{
+			destination = {
+				connector_id = "9a282471-a2d2-4591-a57e-c70179bb1962"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab12"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab15"
+			}
+		}
+		{
+			destination = {
+				connector_id = "e3419eb2-3635-4586-b58c-89ffd88d20d5"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab12"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab14"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1164a5ef-4563-4795-b3b5-42825d6df037"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb3"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb9"
+			}
+		}
+	]
+	constants = [
+		{
+			connector_id = "c4d6bc08-c489-430f-a836-ed490e59c3f9"
+			id = "0bbaabba-abba-abba-abba-abbaabbaab11"
+			instance_id = "abbaabba-abba-abba-abba-abbaabbaab11"
+			value = [1]
+		}
+		{
+			connector_id = "c4d6bc08-c489-430f-a836-ed490e59c3f9"
+			id = "0bbaabba-abba-abba-abba-abbaabbaab15"
+			instance_id = "abbaabba-abba-abba-abba-abbaabbaab15"
+			value = [0]
+		}
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb3"
+			options = [
+				"3b55d6c6-4398-4dbc-b9ef-570aff8696ae"
+			]
+			position = [1408 221]
+			samplers = {
+			}
+			title = "Standard Base"
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb6"
+			options = [
+			]
+			position = [901 283]
+			samplers = {
+			}
+			title = "Multiply"
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Color"
+					name = "Color"
+					type = "float3"
+					ui = {
+						max = [1 1 1]
+						min = [0 0 0]
+						order = 100
+						step = [0.01 0.01 0.01]
+						ui_type = "Color"
+					}
+					value = [0.848 0 0]
+				}
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb7"
+			options = [
+			]
+			position = [657 237]
+			samplers = {
+			}
+			title = "Color"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb2"
+			options = [
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+			]
+			position = [661 341]
+			samplers = {
+				texture_map = {
+					display_name = "Laser Mask"
+					slot_name = "laser_mask"
+					ui = {
+						order = 1
+					}
+				}
+			}
+			title = "Laser Mask"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab12"
+			options = [
+			]
+			position = [438 310]
+			samplers = {
+			}
+			title = "Panner"
+			type = "core/shader_nodes/panner"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb4"
+			options = [
+			]
+			position = [179 314]
+			samplers = {
+			}
+			title = "Multiply"
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			options = [
+			]
+			position = [-32 257]
+			samplers = {
+			}
+			title = "Construct Vector2"
+			type = "core/shader_nodes/construct_vector2"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Scale"
+					name = "scale"
+					type = "float"
+					ui = {
+						max = 10000
+						min = 0.0001
+						order = 100
+						step = 0.01
+					}
+					value = 1
+				}
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb5"
+			options = [
+			]
+			position = [-342 184]
+			samplers = {
+			}
+			title = "Scale"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab11"
+			options = [
+			]
+			position = [-340 291]
+			samplers = {
+			}
+			title = "Constant Scalar"
+			type = "core/shader_nodes/constant_scalar"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb1"
+			options = [
+			]
+			position = [-35 406]
+			samplers = {
+			}
+			title = "Texcoord0"
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab13"
+			options = [
+			]
+			position = [181 450]
+			samplers = {
+			}
+			title = "Time"
+			type = "core/shader_nodes/current_time"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab15"
+			options = [
+			]
+			position = [181 553]
+			samplers = {
+			}
+			title = "Constant Scalar"
+			type = "core/shader_nodes/constant_scalar"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Pan Speed"
+					name = "pan_speed"
+					type = "float"
+					ui = {
+						max = 1
+						min = -1
+						order = 100
+						step = 0.01
+					}
+					value = 0.2
+				}
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab14"
+			options = [
+			]
+			position = [179 668]
+			samplers = {
+			}
+			title = "Pan Speed"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			options = [
+			]
+			position = [1155 408]
+			samplers = {
+			}
+			title = "Multiply"
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Emissive Intensity"
+					name = "emissive_intensity"
+					type = "float"
+					ui = {
+						max = 30
+						min = 0
+						order = 100
+						step = 0.01
+					}
+					value = 0
+				}
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb9"
+			options = [
+			]
+			position = [902 472]
+			samplers = {
+			}
+			title = "Emissive Intensity"
+			type = "core/shader_nodes/material_variable"
+		}
+	]
+	version = 3
+}
+textures = {
+	laser_mask = "pk_add_ons/content/laser_pointer/textures/laser_mask"
+}
+variables = {
+	Color = {
+		type = "vector3"
+		value = [0.848 0 0]
+	}
+	emissive_intensity = {
+		type = "scalar"
+		value = 30
+	}
+	pan_speed = {
+		type = "scalar"
+		value = 0.2
+	}
+	scale = {
+		type = "scalar"
+		value = 1
+	}
+}

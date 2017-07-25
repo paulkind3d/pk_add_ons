@@ -1,0 +1,60 @@
+nodes = [
+	{
+	    name = "Laser Pointer"
+	    args = {
+	        laser_unit = "unit"
+	        laser_contact_unit = "unit"
+	        start_position = "vector3"
+	        rotation = "quaternion"
+	        length = "float"
+	        offset_x = "float"
+	        offset_z = "float"
+	        offset_y = "float"
+	        invert_projection = "bool"
+	        projection = {
+	            type = "enum"
+	            choices = [
+	                "laser only"
+	                "laser and contact"
+	                "contact only"
+	                ]
+	                default = "laser and contact"
+	        }
+	       
+	        hit_types = {
+	            type = "enum"
+	            choices = [
+	                "statics"
+	                "dynamics"
+	                "both"
+	                ]
+	                default = "both"
+	        }
+	        // allows for the raycast filter.  If none selected, no filtering will be used.
+	        hit_filter = "string"
+	        
+	    }
+	    function_map = [
+	            ["start_laser" "laser_pointer.start_laser"]
+	            ["stop_laser" "laser_pointer.stop_laser"]
+	            ["update" "laser_pointer.laser_pointer"]
+	        ]
+	        
+	    returns = {
+	        hit_position = "vector3"
+	        hit_unit = "unit"
+	        hit_actor_id = "float"
+	        hit_actor = "actor"
+	        hit_normal = "vector3"
+	        hit_normal_rotation = "quaternion"
+	        hitting = "bool"
+	        hit = "event"
+	        not_hit = "event"
+	        common_out = "event"
+	        distance_il_laser_scale = "float"
+	        laser_unit_out = "unit"
+	        laser_contact_unit_out = "unit"
+	    }
+	    category = "PK Add Ons/VR"
+	}
+]

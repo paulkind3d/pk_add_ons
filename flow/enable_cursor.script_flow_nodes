@@ -1,0 +1,17 @@
+nodes = [
+{
+	    name = "Enable Cursor"
+	    args = {
+ 	    }
+	    returns = {
+	    }
+	    query = false
+	    function_map = [
+	            ["enable_cursor" "pk_cursor.enable_cursor"]
+	            ["disable_cursor" "pk_cursor.disable_cursor"]
+	            ["toggle_cursor" "pk_cursor.toggle_cursor"]
+	        ]
+	    category = "PK Add Ons/Cursor"  
+	}
+
+]

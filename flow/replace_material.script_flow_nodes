@@ -1,0 +1,15 @@
+nodes = [
+	// swap materials node
+	
+	{
+	    name = "Replace Material"
+	    args = {
+	        unit = "unit"
+	        slot = "string"
+	        material = {type = "resource" extension = "material"}
+ 	           }
+	    query = false
+	    function = "replace_material.change_material"
+	    category = "PK Add Ons/Materials"
+	}
+]

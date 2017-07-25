@@ -1,0 +1,36 @@
+nodes = [
+// lerp over time (vector)
+	
+	{
+	    name = "Vector Lerp Over Time"
+	    args = {
+	        from_vector = "vector3"
+	        to_vector = "vector3"
+	        transition_time = "float"
+	        transition_type = {
+	           type = "enum"
+	           choices = [
+	               "linear"
+	               "quadratic_in-out"
+	               "quadratic_in"
+	           ]
+	            default = "linear"
+	        }
+ 	    }
+	    returns = {
+            vector_out = "vector3"
+            complete = "bool"
+            complete_out = "event"
+            common_out = "event"
+            ratio = "float"
+	    }
+	    query = false
+
+	    function_map = [
+            ["lerp_vector"  "vector_lerp_over_time.lerp_vector"]
+            ["reset_lerp" "vector_lerp_over_time.reset_lerp_vector"]
+        ]
+
+	    category = "PK Add Ons/Math"
+	}
+]

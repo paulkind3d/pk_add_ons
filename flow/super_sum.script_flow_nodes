@@ -1,0 +1,21 @@
+nodes = [
+// Super Sum
+	{
+	    name = "Super Sum"
+	    args = {
+	        num1 = "float"
+	        num2 = "float"
+	        num3 = "float"
+	        num4 = "float"
+	        num5 = "float"
+	        num6 = "float"
+	    }
+	    returns = {
+	        sum = "float"
+	    }
+	    query = true
+	    
+	    function = "pk_math.super_sum"
+	    category = "PK Add Ons/Math"
+}
+]

@@ -1,0 +1,17 @@
+nodes = [
+	{
+	    name = "Nth Update"
+	    args = {
+	        nth_update = "float"
+	    }
+	
+
+	    returns = {
+	    	common_out = "event"
+	    	nth_out = "event"
+		}
+
+	    category = "PK Add Ons/FlowControl"
+	    function = "nth_update.update"
+	}
+]

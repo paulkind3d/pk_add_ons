@@ -1,0 +1,35 @@
+nodes = [
+	{
+	    name = "Gaze Teleport"
+	    args = {
+	        teleport_icon = "unit"
+	        gaze_position = "vector3"
+	        gaze_rotation = "quaternion"
+	        gaze_length = "float"
+	        trigger_time = "float"
+	        teleport_time = "float"
+	        gaze_allowance = "float"
+	        h_m_d_scale = "vector3"
+	        h_m_d_type = {
+	            type = "enum"
+	            choices = [
+	                "steam_vr"
+	                "oculus_vr"
+	                "google_vr"
+	                "gear_vr"
+	                ]
+	                default = "steam_vr"
+	        }
+	    }
+
+	    function = "gaze_teleport.gaze"
+	        
+	    returns = {
+	    	teleport_percent_complete = "float"
+	    	teleport_complete = "event"
+	    	common_out = "event"
+	    	icon_distance = "float"
+	    }
+	    category = "PK Add Ons/VR"
+	}
+]

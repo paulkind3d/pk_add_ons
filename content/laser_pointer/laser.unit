@@ -1,0 +1,16 @@
+
+materials = {
+	laser_pointer_material = "pk_add_ons/content/laser_pointer/laser_pointer_material"
+}
+renderables = {
+	laser = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

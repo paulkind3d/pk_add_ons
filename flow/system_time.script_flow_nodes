@@ -1,0 +1,28 @@
+nodes = [
+// System Time
+{
+	    name = "System Time"
+	    args = {
+	    twelve_hour_notation = "bool"
+	    }
+	    returns = {
+	        current_day = "float"
+	        current_day_str = "string"
+	        current_hour = "float"
+	        current_hour_str = "string"
+	        current_month = "float"
+	        current_month_str = "string"
+	        current_minute = "float"
+	        current_minute_str = "string"
+	        current_second = "float"
+	        current_second_str = "string"
+	        current_year = "float"
+	        current_year_str = "string"
+	        meridiem = "string"
+	    }
+	    query = true
+	    
+	    function = "pk_world.get_system_time"
+	    category = "PK Add Ons/Utility"
+}
+]

@@ -1,0 +1,17 @@
+
+materials = {
+	direction_null_material = "pk_add_ons/content/direction_null/direction_null_material"
+	direction_null_up = "pk_add_ons/content/direction_null/direction_null_up"
+}
+renderables = {
+	direction_null = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}
