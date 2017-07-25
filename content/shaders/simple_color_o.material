@@ -1,0 +1,256 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "1164a5ef-4563-4795-b3b5-42825d6df037"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			source = {
+				instance_id = "812d94a1-ac67-4886-8112-433455ccd875"
+			}
+		}
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			source = {
+				instance_id = "12ac7546-3f27-4215-8d63-9e486445a1c1"
+			}
+		}
+		{
+			destination = {
+				connector_id = "ad5e052f-d316-4a0f-8b79-53c38204d61b"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			source = {
+				instance_id = "7e5191bb-88cd-464c-b655-e329b3d1cd16"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "812d94a1-ac67-4886-8112-433455ccd875"
+			}
+			source = {
+				instance_id = "12ac7546-3f27-4215-8d63-9e486445a1c1"
+			}
+		}
+		{
+			destination = {
+				connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			source = {
+				instance_id = "79af49b9-5f22-47b1-a5fa-75470dd8deb7"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "812d94a1-ac67-4886-8112-433455ccd875"
+			}
+			source = {
+				instance_id = "f9d9791e-0b52-46d4-b2fb-6d532a9c2183"
+			}
+		}
+		{
+			destination = {
+				connector_id = "34259752-b962-4b65-92c3-903a57338519"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			source = {
+				instance_id = "d8e7a170-a474-4671-87e0-a9800134329b"
+			}
+		}
+	]
+	constants = [
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			options = [
+				"7be5b014-3852-48e7-8036-5e8a1a3fad10"
+				"dd7fcf97-0627-48ab-b29a-95b5685bb123"
+				"8df1b8f7-17c2-4ae4-8c4e-25517ec1df46"
+			]
+			position = [180 0]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Roughness"
+					name = "roughness"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						order = 3
+						step = 0.001
+						ui_type = "NumberSlider"
+					}
+					value = 0
+				}
+			}
+			id = "79af49b9-5f22-47b1-a5fa-75470dd8deb7"
+			options = [
+			]
+			position = [-240 40]
+			samplers = {
+			}
+			title = "Roughness"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "812d94a1-ac67-4886-8112-433455ccd875"
+			options = [
+			]
+			position = [-20 200]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Color"
+					name = "color"
+					type = "float3"
+					ui = {
+						max = [1 1 1]
+						min = [0 0 0]
+						order = 1
+						step = [0.001 0.001 0.001]
+						ui_type = "Color"
+					}
+					value = [0 0 0]
+				}
+			}
+			id = "12ac7546-3f27-4215-8d63-9e486445a1c1"
+			options = [
+			]
+			position = [-240 -80]
+			samplers = {
+			}
+			title = "Color"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Metal"
+					name = "metal"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						order = 2
+						step = 1
+						ui_type = "Checkbox"
+					}
+					value = 0
+				}
+			}
+			id = "7e5191bb-88cd-464c-b655-e329b3d1cd16"
+			options = [
+			]
+			position = [-240 120]
+			samplers = {
+			}
+			title = "Metal"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Emissive Intensity"
+					name = "emissive_intensity"
+					type = "float"
+					ui = {
+						max = 50
+						min = 0
+						order = 4
+						step = 0.001
+						ui_type = "NumberSlider"
+					}
+					value = 0
+				}
+			}
+			id = "f9d9791e-0b52-46d4-b2fb-6d532a9c2183"
+			options = [
+			]
+			position = [-240 220]
+			samplers = {
+			}
+			title = "Emissive Intensity"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Opacity"
+					name = "opacitry"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						order = 4
+						step = 0.001
+						ui_type = "NumberSlider"
+					}
+					value = 0
+				}
+			}
+			id = "d8e7a170-a474-4671-87e0-a9800134329b"
+			options = [
+			]
+			position = [-240 -20]
+			samplers = {
+			}
+			title = "Opacity"
+			type = "core/shader_nodes/material_variable"
+		}
+	]
+	version = 3
+}
+textures = {
+}
+variables = {
+	color = {
+		type = "vector3"
+		value = [1 1 1]
+	}
+	emissive_intensity = {
+		type = "scalar"
+		value = 0
+	}
+	metal = {
+		type = "scalar"
+		value = 0
+	}
+	opacitry = {
+		type = "scalar"
+		value = 0
+	}
+	roughness = {
+		type = "scalar"
+		value = 0
+	}
+}

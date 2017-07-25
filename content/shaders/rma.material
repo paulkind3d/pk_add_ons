@@ -1,0 +1,317 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "add5f5b9-dfac-4396-b91c-b5e54007fc69"
+			}
+		}
+		{
+			destination = {
+				connector_id = "b1c86408-aacb-4466-b754-ddcf37a3a2c8"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "54d18547-4e3b-42e8-8a55-d92dbf1e8712"
+			}
+		}
+		{
+			destination = {
+				connector_id = "59fd1cf4-f736-470d-8510-1dd7c016639e"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"b"
+			]
+			source = {
+				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "c081a88a-3669-47e7-bbbf-ebaa4459247d"
+			}
+			source = {
+				instance_id = "1e57cf6d-208b-47ff-b0c3-7e6d0280acf9"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "add5f5b9-dfac-4396-b91c-b5e54007fc69"
+			}
+			source = {
+				instance_id = "c081a88a-3669-47e7-bbbf-ebaa4459247d"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "54d18547-4e3b-42e8-8a55-d92dbf1e8712"
+			}
+			source = {
+				instance_id = "c081a88a-3669-47e7-bbbf-ebaa4459247d"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			}
+			source = {
+				instance_id = "c081a88a-3669-47e7-bbbf-ebaa4459247d"
+			}
+		}
+		{
+			destination = {
+				connector_id = "46536067-b418-47a5-bc6b-234972e963e9"
+				instance_id = "1ee0c8dc-1a53-402f-8f20-78b6e9f627c2"
+			}
+			source = {
+				instance_id = "6f9c72b5-7a5e-4568-87a7-30a6b27d83a4"
+			}
+		}
+		{
+			destination = {
+				connector_id = "8231a2cb-b751-4ecd-94eb-3e6d048ba173"
+				instance_id = "1ee0c8dc-1a53-402f-8f20-78b6e9f627c2"
+			}
+			source = {
+				instance_id = "c8e371a0-e2fc-4e8e-ace9-fc4bcd0c5cd3"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "c081a88a-3669-47e7-bbbf-ebaa4459247d"
+			}
+			source = {
+				instance_id = "1ee0c8dc-1a53-402f-8f20-78b6e9f627c2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			}
+		}
+		{
+			destination = {
+				connector_id = "ad5e052f-d316-4a0f-8b79-53c38204d61b"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"g"
+			]
+			source = {
+				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			}
+		}
+	]
+	constants = [
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			options = [
+				"7be5b014-3852-48e7-8036-5e8a1a3fad10"
+			]
+			position = [0 0]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "add5f5b9-dfac-4396-b91c-b5e54007fc69"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [-620 0]
+			samplers = {
+				texture_map = {
+					display_name = "Albedo Map"
+					slot_name = "albedo"
+					ui = {
+						order = 1
+					}
+				}
+			}
+			title = "Albedo Map"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "54d18547-4e3b-42e8-8a55-d92dbf1e8712"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"90e20826-8689-42fa-8e24-f484ec64c5c3"
+				"f669a3a6-0376-4187-840e-80000e2939d5"
+			]
+			position = [-280 220]
+			samplers = {
+				texture_map = {
+					display_name = "Normal Map"
+					slot_name = "normal"
+					ui = {
+						order = 2
+					}
+				}
+			}
+			title = "Normal Map"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"e94e53e6-49b6-4194-a747-8f064a5932e0"
+				"f669a3a6-0376-4187-840e-80000e2939d5"
+			]
+			position = [-280 320]
+			samplers = {
+				texture_map = {
+					display_name = "RMA"
+					slot_name = "rma"
+					ui = {
+					}
+				}
+			}
+			title = "RMA"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "1e57cf6d-208b-47ff-b0c3-7e6d0280acf9"
+			options = [
+			]
+			position = [-1140 120]
+			samplers = {
+			}
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Scale U"
+					name = "scale_u"
+					type = "float"
+					ui = {
+						max = 100
+						min = 0
+						step = 0.001
+						ui_type = "NumberSlider"
+					}
+					value = 0
+				}
+			}
+			id = "6f9c72b5-7a5e-4568-87a7-30a6b27d83a4"
+			options = [
+			]
+			position = [-1360 280]
+			samplers = {
+			}
+			title = "Scale U"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Scale V"
+					name = "scale_v"
+					type = "float"
+					ui = {
+						max = 100
+						min = 0
+						step = 0.001
+						ui_type = "NumberSlider"
+					}
+					value = 0
+				}
+			}
+			id = "c8e371a0-e2fc-4e8e-ace9-fc4bcd0c5cd3"
+			options = [
+			]
+			position = [-1360 340]
+			samplers = {
+			}
+			title = "Scale V"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "c081a88a-3669-47e7-bbbf-ebaa4459247d"
+			options = [
+			]
+			position = [-923 288]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "1ee0c8dc-1a53-402f-8f20-78b6e9f627c2"
+			options = [
+			]
+			position = [-1140 280]
+			samplers = {
+			}
+			type = "core/shader_nodes/construct_vector2"
+		}
+	]
+	version = 3
+}
+textures = {
+	albedo = null
+	normal = null
+	rma = null
+}
+variables = {
+	scale_u = {
+		type = "scalar"
+		value = 1
+	}
+	scale_v = {
+		type = "scalar"
+		value = 1
+	}
+}

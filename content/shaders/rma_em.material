@@ -1,0 +1,314 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "add5f5b9-dfac-4396-b91c-b5e54007fc69"
+			}
+			source = {
+				instance_id = "1e57cf6d-208b-47ff-b0c3-7e6d0280acf9"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "54d18547-4e3b-42e8-8a55-d92dbf1e8712"
+			}
+			source = {
+				instance_id = "1e57cf6d-208b-47ff-b0c3-7e6d0280acf9"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			}
+			source = {
+				instance_id = "1e57cf6d-208b-47ff-b0c3-7e6d0280acf9"
+			}
+		}
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "add5f5b9-dfac-4396-b91c-b5e54007fc69"
+			}
+		}
+		{
+			destination = {
+				connector_id = "b1c86408-aacb-4466-b754-ddcf37a3a2c8"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "54d18547-4e3b-42e8-8a55-d92dbf1e8712"
+			}
+		}
+		{
+			destination = {
+				connector_id = "ad5e052f-d316-4a0f-8b79-53c38204d61b"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			}
+		}
+		{
+			destination = {
+				connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"g"
+			]
+			source = {
+				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			}
+		}
+		{
+			destination = {
+				connector_id = "59fd1cf4-f736-470d-8510-1dd7c016639e"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"b"
+			]
+			source = {
+				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "812d94a1-ac67-4886-8112-433455ccd875"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "e00c24ca-3c71-439c-8bfb-62560f7c3813"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "812d94a1-ac67-4886-8112-433455ccd875"
+			}
+			source = {
+				instance_id = "79af49b9-5f22-47b1-a5fa-75470dd8deb7"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "e00c24ca-3c71-439c-8bfb-62560f7c3813"
+			}
+			source = {
+				instance_id = "1e57cf6d-208b-47ff-b0c3-7e6d0280acf9"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1164a5ef-4563-4795-b3b5-42825d6df037"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			source = {
+				instance_id = "812d94a1-ac67-4886-8112-433455ccd875"
+			}
+		}
+		{
+			destination = {
+				connector_id = "34259752-b962-4b65-92c3-903a57338519"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"a"
+			]
+			source = {
+				instance_id = "add5f5b9-dfac-4396-b91c-b5e54007fc69"
+			}
+		}
+	]
+	constants = [
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			options = [
+				"7be5b014-3852-48e7-8036-5e8a1a3fad10"
+			]
+			position = [180 0]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "add5f5b9-dfac-4396-b91c-b5e54007fc69"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [-280 0]
+			samplers = {
+				texture_map = {
+					display_name = "Albedo"
+					slot_name = "albedo"
+					ui = {
+						order = 1
+					}
+				}
+			}
+			title = "Albedo"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "54d18547-4e3b-42e8-8a55-d92dbf1e8712"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"90e20826-8689-42fa-8e24-f484ec64c5c3"
+				"f669a3a6-0376-4187-840e-80000e2939d5"
+			]
+			position = [-280 100]
+			samplers = {
+				texture_map = {
+					display_name = "Normal"
+					slot_name = "normal"
+					ui = {
+						order = 2
+					}
+				}
+			}
+			title = "Normal"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"e94e53e6-49b6-4194-a747-8f064a5932e0"
+				"f669a3a6-0376-4187-840e-80000e2939d5"
+			]
+			position = [-280 200]
+			samplers = {
+				texture_map = {
+					display_name = "RMA"
+					slot_name = "rma"
+					ui = {
+					}
+				}
+			}
+			title = "RMA"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "1e57cf6d-208b-47ff-b0c3-7e6d0280acf9"
+			options = [
+			]
+			position = [-600 160]
+			samplers = {
+			}
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "e00c24ca-3c71-439c-8bfb-62560f7c3813"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [-280 300]
+			samplers = {
+				texture_map = {
+					display_name = "Emissive"
+					slot_name = "emissive"
+					ui = {
+						order = 4
+					}
+				}
+			}
+			title = "Emissive"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Emissive Intensity"
+					name = "emissive_intensity"
+					type = "float"
+					ui = {
+						max = 50
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "79af49b9-5f22-47b1-a5fa-75470dd8deb7"
+			options = [
+			]
+			position = [-281 437]
+			samplers = {
+			}
+			title = "Emissive Intensity"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "812d94a1-ac67-4886-8112-433455ccd875"
+			options = [
+			]
+			position = [-40 300]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+	]
+	version = 3
+}
+textures = {
+	albedo = null
+	emissive = null
+	normal = null
+	rma = null
+}
+variables = {
+	emissive_intensity = {
+		type = "scalar"
+		value = 0
+	}
+}
