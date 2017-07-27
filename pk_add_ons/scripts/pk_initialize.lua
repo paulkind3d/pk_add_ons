@@ -1,3 +1,5 @@
+-- Written by Paul Kind 2017
+
 pk_world = pk_world or {}
 pk_math = pk_math or {}
 
@@ -29,3 +31,6 @@ require 'pk_add_ons/scripts/light_flicker'
 require 'pk_add_ons/scripts/system_time'
 require 'pk_add_ons/scripts/nth_update'
 require 'pk_add_ons/scripts/gaze_teleport'
+require 'pk_add_ons/scripts/do_once_with_reset'
+require 'pk_add_ons/scripts/simple_timer'
+require 'pk_add_ons/scripts/multi_bool_tester'

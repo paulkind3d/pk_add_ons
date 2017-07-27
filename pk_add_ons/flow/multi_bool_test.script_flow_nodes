@@ -1,0 +1,33 @@
+nodes = [
+	
+	{
+	    name = "Multi-Bool Tester"
+	    args = {
+	    	bool_1_rule = "bool"
+	    	bool_1_in = "bool"
+	    	bool_2_rule = "bool"
+	    	bool_2_in = "bool"
+	    	bool_3_rule = "bool"
+	    	bool_3_in = "bool"
+	    	bool_4_rule = "bool"
+	    	bool_4_in = "bool"
+	    	bool_5_rule = "bool"
+	    	bool_5_in = "bool"
+	    	bool_6_rule = "bool"
+	    	bool_6_in = "bool"
+	    	bool_7_rule = "bool"
+	    	bool_7_in = "bool"
+	    	bool_8_rule = "bool"
+	    	bool_8_in = "bool"
+	        }
+
+	    returns = {
+            passed_test = "event"
+            common_out = "event"
+	    }
+
+	    query = false
+	    function = "multi_bool_test.check_passed"
+	    category = "PK Add Ons/FlowControl"
+	}
+]
