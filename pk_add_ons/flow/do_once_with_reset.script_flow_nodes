@@ -1,0 +1,19 @@
+nodes = [
+	
+	{
+	    name = "Do Once With Reset"
+	    args = {
+	        }
+	    returns = {
+            controlled_out = "event"
+	    }
+	    query = false
+
+	    function_map = [
+            ["do_once"  "do_once_with_reset.do_once"]
+            ["reset" "do_once_with_reset.reset_me"]
+        ]
+
+	    category = "PK Add Ons/FlowControl"
+	}
+]
