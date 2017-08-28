@@ -54,30 +54,6 @@ shader = {
 		}
 		{
 			destination = {
-				connector_id = "ad5e052f-d316-4a0f-8b79-53c38204d61b"
-				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
-			}
-			select = [
-				"r"
-			]
-			source = {
-				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
-			}
-		}
-		{
-			destination = {
-				connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
-				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
-			}
-			select = [
-				"g"
-			]
-			source = {
-				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
-			}
-		}
-		{
-			destination = {
 				connector_id = "59fd1cf4-f736-470d-8510-1dd7c016639e"
 				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
 			}
@@ -137,6 +113,30 @@ shader = {
 			]
 			source = {
 				instance_id = "add5f5b9-dfac-4396-b91c-b5e54007fc69"
+			}
+		}
+		{
+			destination = {
+				connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
+			}
+		}
+		{
+			destination = {
+				connector_id = "ad5e052f-d316-4a0f-8b79-53c38204d61b"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"g"
+			]
+			source = {
+				instance_id = "bb4108ef-bd73-4e33-a3e9-533ec48854c0"
 			}
 		}
 	]

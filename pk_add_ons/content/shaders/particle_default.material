@@ -204,7 +204,7 @@ shader = {
 			options = [
 				"f720cf3f-c8fc-4daf-a6fc-a6b1de1fca26"
 			]
-			position = [140 0]
+			position = [340 60]
 			samplers = {
 			}
 			type = "core/stingray_renderer/output_nodes/particle_base"
@@ -216,7 +216,7 @@ shader = {
 			id = "188aabe5-6288-436b-aabc-b62f3f3b5227"
 			options = [
 			]
-			position = [-340 -40]
+			position = [-380 -260]
 			samplers = {
 			}
 			type = "core/shader_nodes/billboard_size"
@@ -228,7 +228,7 @@ shader = {
 			id = "d67616c1-fd39-418e-8389-b23f41b01256"
 			options = [
 			]
-			position = [-340 20]
+			position = [-380 -200]
 			samplers = {
 			}
 			type = "core/shader_nodes/billboard_rotation"
@@ -243,7 +243,7 @@ shader = {
 				"5dd59b3d-1762-4a14-9930-7500230ef3db"
 				"1e067464-12d8-4826-9b72-cfd5765003e3"
 			]
-			position = [-620 -80]
+			position = [-640 -180]
 			samplers = {
 				texture_map = {
 					display_name = "Color Map"
@@ -265,7 +265,7 @@ shader = {
 				"5dd59b3d-1762-4a14-9930-7500230ef3db"
 				"1e067464-12d8-4826-9b72-cfd5765003e3"
 			]
-			position = [-1060 120]
+			position = [-1020 -20]
 			samplers = {
 				texture_map = {
 					display_name = "Opacity Map"
@@ -284,7 +284,7 @@ shader = {
 			id = "4531d6c8-aceb-406c-9760-770433e493ef"
 			options = [
 			]
-			position = [-1280 -40]
+			position = [-1380 -180]
 			samplers = {
 			}
 			type = "core/shader_nodes/texture_coordinate0"
@@ -307,7 +307,7 @@ shader = {
 			id = "c285eda7-633e-4fce-baa2-eeb24dc75e0e"
 			options = [
 			]
-			position = [-380 280]
+			position = [-240 340]
 			samplers = {
 			}
 			title = "Emissive Intensity"
@@ -320,7 +320,7 @@ shader = {
 			id = "24c4701f-adde-49bf-901d-f7589f467c19"
 			options = [
 			]
-			position = [-100 240]
+			position = [-20 320]
 			samplers = {
 			}
 			type = "core/shader_nodes/mul"
@@ -343,7 +343,7 @@ shader = {
 			id = "d6e7bec2-0802-49e8-8202-b55e7f87cb66"
 			options = [
 			]
-			position = [-202 431]
+			position = [-20 260]
 			samplers = {
 			}
 			title = "Roughness"
@@ -367,7 +367,7 @@ shader = {
 			id = "7a3a087b-d87f-4868-82fa-ef02814eff25"
 			options = [
 			]
-			position = [-200 380]
+			position = [-20 200]
 			samplers = {
 			}
 			title = "Metal"
@@ -380,7 +380,7 @@ shader = {
 			id = "42f2b0e6-71d9-4549-aa48-8e7636a1fb5c"
 			options = [
 			]
-			position = [-480 140]
+			position = [-540 80]
 			samplers = {
 			}
 			type = "core/shader_nodes/mul"
@@ -403,7 +403,7 @@ shader = {
 			id = "463ef83b-c153-49b2-94ce-bdc00cef0426"
 			options = [
 			]
-			position = [-705 277]
+			position = [-800 140]
 			samplers = {
 			}
 			title = "Opacity Adjust"
@@ -416,7 +416,7 @@ shader = {
 			id = "269bccd6-1f28-40bd-a1c3-6ac0bfce0522"
 			options = [
 			]
-			position = [-791 98]
+			position = [-800 20]
 			samplers = {
 			}
 			type = "core/shader_nodes/desaturation"
@@ -428,7 +428,7 @@ shader = {
 			id = "ce1e48f6-1e77-4546-bd47-6a8b64a55f66"
 			options = [
 			]
-			position = [-620 40]
+			position = [-640 -80]
 			samplers = {
 			}
 			type = "core/shader_nodes/vertex_color0"
@@ -452,7 +452,7 @@ shader = {
 			id = "1457b135-e151-40cf-96a7-db9a67558531"
 			options = [
 			]
-			position = [-378 -111]
+			position = [-380 -140]
 			samplers = {
 			}
 			type = "core/shader_nodes/mul"
