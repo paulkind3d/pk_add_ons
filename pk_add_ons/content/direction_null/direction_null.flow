@@ -1,0 +1,158 @@
+
+nodes = [
+	{
+		id = "4a12304f-d988-48ee-a774-321850c5e316"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "0c98d2c5-ce27-43cd-91cf-2eca295f03c4:0"
+					node = "0c98d2c5-ce27-43cd-91cf-2eca295f03c4"
+				}
+			]
+		}
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+	{
+		id = "0c98d2c5-ce27-43cd-91cf-2eca295f03c4"
+		in_variables = {
+			group = {
+				type = "id"
+			}
+			unit = {
+				node = "4a12304f-d988-48ee-a774-321850c5e316"
+				type = "unit"
+				variable = "unit"
+			}
+			visible = {
+				type = "bool"
+			}
+		}
+		type = "set_unit_visibility"
+		variable_values = {
+			group = null
+			unit = null
+			visible = false
+		}
+	}
+	{
+		id = "813891d2-de1e-4cb2-8f86-a92f9f2ada12"
+		in_variables = {
+			object = {
+				type = "id"
+			}
+			unit = {
+				node = "4a12304f-d988-48ee-a774-321850c5e316"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			position = {
+				type = "vector3"
+			}
+		}
+		type = "get_unit_world_position"
+		variable_values = {
+			object = null
+			position = null
+			unit = null
+		}
+	}
+	{
+		id = "c50e55c0-fee2-4c13-9a8a-8ab19f17e022"
+		in_variables = {
+			object = {
+				type = "id"
+			}
+			unit = {
+				node = "4a12304f-d988-48ee-a774-321850c5e316"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			rotation = {
+				type = "quaternion"
+			}
+		}
+		type = "get_unit_world_rotation"
+		variable_values = {
+			object = null
+			rotation = null
+			unit = null
+		}
+	}
+	{
+		id = "2bfc0d8d-cfa5-45ac-bf81-e0eb4a0758e7"
+		in_variables = {
+			vector3 = {
+				node = "813891d2-de1e-4cb2-8f86-a92f9f2ada12"
+				type = "vector3"
+				variable = "position"
+			}
+		}
+		type = "external_output_vector3"
+		variable_values = {
+			name = "World Position"
+			vector3 = null
+		}
+	}
+	{
+		id = "35dcad0e-67f7-4273-9498-2baa9e64f992"
+		in_variables = {
+			quaternion = {
+				node = "c50e55c0-fee2-4c13-9a8a-8ab19f17e022"
+				type = "quaternion"
+				variable = "rotation"
+			}
+		}
+		type = "external_output_quaternion"
+		variable_values = {
+			name = "World Rotation"
+			quaternion = null
+		}
+	}
+	{
+		id = "14fcb58f-04c3-41e8-9da2-72ac819fad15"
+		in_variables = {
+			object = {
+				type = "id"
+			}
+			unit = {
+				node = "4a12304f-d988-48ee-a774-321850c5e316"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			scale = {
+				type = "vector3"
+			}
+		}
+		type = "get_unit_local_scale"
+		variable_values = {
+			object = null
+			scale = null
+			unit = null
+		}
+	}
+	{
+		id = "d6991bf2-c517-4388-8f5e-45ad10996df2"
+		in_variables = {
+			vector3 = {
+				node = "14fcb58f-04c3-41e8-9da2-72ac819fad15"
+				type = "vector3"
+				variable = "scale"
+			}
+		}
+		type = "external_output_vector3"
+		variable_values = {
+			name = "Unit Scale"
+			vector3 = null
+		}
+	}
+]
