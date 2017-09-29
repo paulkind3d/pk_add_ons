@@ -1,0 +1,35 @@
+nodes = [
+	{
+	    name = "File Writer"
+	    args = {
+	    file_path = "string"
+	    file_name = "string"
+	    text_data = "string"
+	    file_mode = {
+	            type = "enum"
+	            choices = [
+	                "write_w"
+	                "append_a"
+	                "read_and_write_r+"
+	                "overwrite_w+"
+	                ]
+	                default = "read_and_write_r+"
+	    }
+
+	    file_type = {
+	        type = "enum"
+	        choices = [
+	            "Text"
+	            "Lua"
+	            ]
+	        default = "Lua"
+	    }
+
+ 	}
+	    returns = {
+	}
+	    query = false
+	    function = "file_writer.input_data"
+	    category = "PK Add Ons/Utility"
+	}
+]

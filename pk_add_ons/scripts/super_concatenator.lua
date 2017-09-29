@@ -1,3 +1,5 @@
+-- Written by Paul Kind 2017
+
 super_contatenator = super_contatenator or {}
 
 -- super concatenator
@@ -60,4 +62,24 @@ function super_contatenator.contatenate_string(t)
 
     t.concatenated_string = prefix .. message1 .. message2 .. message3 .. message4 .. message5 .. message6 .. message7 .. message8 .. suffix
     return t
+end
+
+function super_contatenator.deconcatenate(t)
+
+    local i = 1
+    local max_output = 8
+
+    for item in string.gmatch(t.concatenated_string, "[^#]+") do 
+
+        t["message" .. i] = item
+
+        if i >= max_output then
+            break
+        end
+
+        i = i + 1
+    end 
+
+    return t
+
 end

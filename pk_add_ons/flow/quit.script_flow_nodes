@@ -1,0 +1,15 @@
+nodes = [
+	
+	{
+	    name = "Quit Application"
+	    args = {
+	        }
+	    returns = {
+	    }
+	    query = false
+
+	    function = "pk_quit.quit_application"
+
+	    category = "PK Add Ons/FlowControl"
+	}
+]

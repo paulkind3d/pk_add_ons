@@ -11,7 +11,7 @@ nodes = [
 	            ["disable_cursor" "pk_cursor.disable_cursor"]
 	            ["toggle_cursor" "pk_cursor.toggle_cursor"]
 	        ]
-	    category = "PK Add Ons/Cursor"  
+	    category = "PK Add Ons/Utility"  
 	}
 
 ]

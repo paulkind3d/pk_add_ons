@@ -1,0 +1,21 @@
+nodes = [
+	
+	{
+	    name = "Simple Timer"
+	    args = {
+	    	seconds = "float"
+	        }
+	    returns = {
+            complete = "event"
+            complete_repeat = "event"
+	    }
+	    query = false
+
+	    function_map = [
+            ["set_timer"  "simple_timer.set_timer"]
+            ["check_timer" "simple_timer.check_timer"]
+        ]
+
+	    category = "PK Add Ons/Utility"
+	}
+]
