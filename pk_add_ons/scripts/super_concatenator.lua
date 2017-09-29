@@ -69,7 +69,7 @@ function super_contatenator.deconcatenate(t)
     local i = 1
     local max_output = 8
 
-    for item in string.gmatch(t.concatenated_string, "[^#]+") do 
+    for item in string.gmatch(t.concatenated_string, "[^"..t.concatenator.."]+") do 
 
         t["message" .. i] = item
 
