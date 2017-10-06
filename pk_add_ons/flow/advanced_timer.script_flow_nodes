@@ -1,0 +1,26 @@
+nodes = [
+	
+	{
+	    name = "Advanced Timer"
+	    args = {
+	    	seconds = "float"
+	        }
+	    returns = {
+            complete = "event"
+            complete_repeat = "event"
+            current_time = "float"
+            time_remaining = "float"
+            percentage_complete = "float"
+            percentage_remaining = "float"
+            common_out = "event"
+	    }
+	    query = false
+
+	    function_map = [
+            ["set_timer"  "advanced_timer.set_timer"]
+            ["check_timer" "advanced_timer.check_timer"]
+        ]
+
+	    category = "PK Add Ons/Utility"
+	}
+]
